@@ -3,7 +3,14 @@ body{
    
 }
 
+header {
+    width: 100%;
+}
+
 /*navbar*/
+.navbar {
+    width: 100%;
+}
 
 .navbar-brand{
     font-size: 50px;
@@ -106,7 +113,7 @@ body{
 
 }
 .histoire img{
-    height: 52vh;
+    height: 29vh;
 }
 .histoire h5{
    font-size: 60px;
@@ -188,15 +195,19 @@ h1:hover::after{
     
 }
 .photo .card{
+    width: 285px;
     overflow: hidden;
 }
 .photo .card img{
+    width: 380px;
+    
     transition: all 3.5s ease;
 }
 .photo .card:hover img{
     transform: scale(1.5);
 }
 .photo1 .card{
+    width: 285px;
     overflow: hidden;
 }
 .photo1 .card img{
@@ -206,6 +217,7 @@ h1:hover::after{
     transform: scale(1.5);
 }
 .photo2 .card{
+    width: 285px;
     overflow: hidden;
 }
 .photo2 .card img{
@@ -216,12 +228,12 @@ h1:hover::after{
 }
 .gale .card img{
     height: 200px;
-    width: 265px;
+    width: 285px;
   
     
 }
 .nous{
-    margin-top:20px;
+    margin-top:50px;
     height: 400px;
     display: flex;
     flex-direction: row;
@@ -229,17 +241,30 @@ h1:hover::after{
 }
 .nous p{
     height: 300px;
-    width: 500px;
+    width: 700px;
     padding: 60px;
     text-align: justify;
 }
 .photo{
     margin-top:30px;
+}.formule{
+    background-color: rgb(126, 129, 129);
+    padding: 20px;
+    border-radius: 10px;
+}
+form{
+    height: 400px;
+    width: 500px;
+    margin-left: 27%;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
 }
 .pied{
     position: absolute;
     margin-top: 3%; 
     width: 100%;
+    background-color: rgb(126, 129, 129);
 }
 .pied a{
     text-decoration: none;
@@ -260,3 +285,69 @@ h1:hover::after{
     font-weight: bold;
     font-size: 25px;
 }
+@media (max-width:375px){
+    .carousel-item img{
+        width: 100%;
+    }
+}
+@media (max-width:950px){
+    .carousel-item img{
+        width: 100%;
+    }
+}
+@media (max-width:375px){
+    .wrapper .static{
+        font-size: 30px;
+    }
+    .txts li{
+        font-size: 32px;
+        font-weight: bold;
+    }
+    
+}
+@media (max-width:767px){
+    .carousel-caption h5{
+        font-size: 1.8rem;
+        letter-spacing: .12rem;
+        padding-bottom: .5rem;
+    }
+} 
+@media (max-width:900px){
+    .wrapper .static{
+        font-size: 40px;
+        padding-top: 40px;
+    }
+    .txts li{
+        font-size: 90px;
+        
+    }
+    .carousel-caption h5{
+        font-size: 50px;
+    }
+
+}  
+@media (max-width:820px){
+    .card img{
+        width: 100%!important;
+    }
+    
+}
+@media (max-width:820px){
+    #circuits{
+        height: 500px;
+    }
+}
+@media (max-width:820px){
+    #galeries{
+        height: 2800px;
+        
+    }
+    .gale .photo img{
+        
+    }
+}
+   
+    
+    
+
+

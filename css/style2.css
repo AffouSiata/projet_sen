@@ -25,15 +25,14 @@ body{
     height:550px;
 }
  h5{
-    margin-bottom: 150px;
-    font-size: 80px;
+    margin-top: -45%;
+    font-size: 100px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: rgb(190, 183, 183);
+    /* background-color: rgb(190, 183, 183); */
     color: white;
-    opacity: 0.8;
     font-weight: bold;
     border-radius: 10px;
-    box-shadow: -5px -4px 24px 3px rgba(0,0,0,0.75);
+    /* box-shadow: -5px -4px 24px 3px rgba(0,0,0,0.75); */
  }
  .art {
     margin-top: 5%;
@@ -47,18 +46,17 @@ body{
     height: 300px;
     width: 300px;
 }
+
 .pied{
     margin-top: 5%;
+    background-color: rgb(126, 129, 129);
 }
 .pied a{
     text-decoration: none;
     font-size: 17px;
     font-weight: bold;
     text-align: justify;
-    color:red;
-}
-.pied:hover a{
-    color: green;
+    
 }
 .pied p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -67,5 +65,5 @@ body{
 .pied h3{
     color: black;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
 }
