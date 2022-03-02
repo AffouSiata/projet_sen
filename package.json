@@ -1,22 +1,15 @@
 {
-  "name": "projet_sen",
+  "name": "projet_ddd",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AffouSiata/projet_sen.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AffouSiata/projet_sen/issues"
-  },
-  "homepage": "https://github.com/AffouSiata/projet_sen#readme",
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.3",
